@@ -6,18 +6,22 @@ AsteroidNavigator
 PLEASE LEAVE A REVIEW OR RATE THE PACKAGE IF YOU FIND IT USEFUL!
 Enjoy! :)
 
+
 Contact  
 -------------------------------------
 Questions, suggestions, help needed?  
 Contact me at:  
 Email: jgarza9788@gmail.com  
 Cell: 1-818-251-0647  
-Contact Info: [justingarza.net/contact](http://justingarza.net/contact/)
+Contact Info: [justingarza.info/contact](http://justingarza.info/contact/)
   
 Description/Features
 -------------------------------------
-A Space themed physics game!* GaussianBlur Pause Effect
+A Space themed physics game!
+
+* GaussianBlur Pause Effect
 * ShockWave Effect
+* DropShadow Effect
 * Carousel Picker
 * Multiple Characters
 * Unity Ads
@@ -25,7 +29,9 @@ A Space themed physics game!* GaussianBlur Pause Effect
 * Scene Transitions
 * Fully Commented C# code
 * And More
-* ...Reach out to me to request new features!  
+* ...Reach out to me to request new features!  
+
+
 Terms of Use
 -------------------------------------
 You are free to add this asset to any game you’d like
@@ -38,6 +44,7 @@ Table of Contents
 1. Systems/Effect
 	* SceneSwitchAnimator
 	* ShockWave
+	* DropShadow
 	* GaussianBlur
 	* 3D Carousel Picker
 	* Pool Manager
@@ -58,21 +65,26 @@ This controls the changing of one scene to another.
 **ShockWave:**  
 This creates a small shockwave effect when the ship crashes
 
+**DropShadow:**  
+This creates a shadow behind the player and the asteroids
+
 **GaussianBlur:**  
 This creates a blur effect, this can be seen during pause. (see image below)
 
-![Imgur](http://i.imgur.com/BX2VKxim.png)
+![Imgur](https://i.imgur.com/39cTMAOm.png)
 
 **3D Carousel Picker:**  
 This 3D Carousel Picker is used for picking your character, and repairing them.
 
 ![Imgur](http://i.imgur.com/xB2cPLfm.png)
 
+![Imgur](https://i.imgur.com/AE6Ns02m.png)
+
 **Pool Manager:**  
 This system (PoolManager.cs**, ObjectPool.cs**, and RecycleAfter.cs** ) is used for Spawning and Recycling objects, instead of creating and destorying since creating and destorying objects takes up too much resources.
 
 **Repairs/Ads:**  
-When you lose with a character their ship breaks, and the only way to repair the ship is to watch an ad. please see CharacterSelectManager.cs** for more details.
+When you lose with a character their ship breaks, and the only way to repair the ship is to watch an ad. please see **CharacterSelectManager.cs** for more details.
 
 
 Scenes 
@@ -83,20 +95,21 @@ Here is a List of Scenes, and a breif description of what they do.
 This is exactly what it sounds like...
 it's a setup/title screen.
 
-![Imgur](http://i.imgur.com/SjjEIo4m.png)
+![Imgur](https://i.imgur.com/Qs9DvsKm.png)
+
 
 **CharacterSelect**
 This is where the user can select a character, or repair a character with a broken ship.
 
-![Imgur](http://i.imgur.com/M9xnoifm.png)
+![Imgur](https://i.imgur.com/AE6Ns02m.png)
 
 **Game**  
 This scene stores the core game.
 Tap the L and R buttons to control the trust of your rockets, and Navigate the Asteroid field.
 
-![Imgur](http://i.imgur.com/AkMM5Zvm.png)
-![Imgur](http://i.imgur.com/K7sBUmVm.png)
-![Imgur](http://i.imgur.com/FsFhOhSm.png)
+![Imgur](https://i.imgur.com/ZT7VPoYm.png)
+![Imgur](https://i.imgur.com/sDkVe5Fm.png)
+![Imgur](https://i.imgur.com/Luxwqj2m.png)
 
 Scripts 
 -------------------------------------
